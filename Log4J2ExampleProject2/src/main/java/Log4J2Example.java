@@ -8,6 +8,7 @@ public class Log4J2Example
     public static void main(String[] args) 
     {
         l.info("This is an info message");
+        l.info("This is another info");
         l.warn("This is a warning message");
         l.error("This is an error message");
     }
